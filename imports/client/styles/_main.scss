@@ -1,0 +1,53 @@
+// Variables
+$red: red;
+$gold-dark: darken(gold, 2%);
+
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 20%);
+
+$red: #eddfdf;
+$red-alt: darken($red, 25%);
+
+*{
+	// simple css reset
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	// 62.5% sets our base font-size to 10 PIXELS
+	// 16(pixels) * .625 = 10px
+	font-size: 62.5%;
+	
+}
+
+body{
+	// background: #f2f2f2;
+	background: #F52F57;
+	color: #555555;
+	// font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
+	font-size: 1.6rem;
+}
+
+input, button, select{
+	font-size: 1.3rem;
+}
+
+
+h1{
+	font-weight: 300;
+	// 2.4rem === 24 PIXELS (When root font-size is 62.5%)
+	font-size: 1.4rem;
+}
+
+
+
+// IMPORT ORDER MATTERS: Place these after the *, html, body styles
+@import './components/title-bar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/form';
+@import './components/player';

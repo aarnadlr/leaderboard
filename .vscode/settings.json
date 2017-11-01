@@ -1,0 +1,9 @@
+{
+		//ENABLES HTML SNIPPETS IN .JS FILES
+		"files.associations": {
+			// "*.ejs": "html",
+			// "*.js": "html"
+		}
+
+		
+	}

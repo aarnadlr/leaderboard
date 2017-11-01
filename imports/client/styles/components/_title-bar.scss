@@ -1,0 +1,16 @@
+.title-bar{
+	padding-top: 20px;
+	background: rgb(192, 32, 67);
+	// background: blue;
+	color: white;
+}
+
+.title-bar__subtitle{
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	// font-weight: lighter;
+}
