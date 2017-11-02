@@ -1,5 +1,7 @@
 node_modules/
 
+settings.json
+
 # General
 .DS_Store
 .AppleDouble
